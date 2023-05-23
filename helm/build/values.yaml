@@ -1,0 +1,15 @@
+app:
+  name: chri5p-poi-gateway-app
+  namespace: chri5p
+  cluster: .apps.summit23rock.n26o.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23Janus1/chri5p-gateway
+  org: Summit23Janus1
+  name: chri5p-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: chri5p/poi-gateway-app
+  tag: latest
